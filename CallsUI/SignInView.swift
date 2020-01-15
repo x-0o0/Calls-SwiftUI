@@ -1,16 +1,15 @@
 //
-//  ContentView.swift
+//  SignInView.swift
 //  CallsUI
 //
 //  Created by 이재성 on 2020/01/15.
 //  Copyright © 2020 Jaesung. All rights reserved.
 //
 
+import UIKit
 import SwiftUI
 
-struct ContentView: View {
-//    @Binding var userId: String
-//    var isAlert = false
+struct SignInView: View {
     @State var userId: String = ""
     
     var body: some View {
@@ -51,13 +50,12 @@ struct ContentView: View {
                 }.padding()
             }.padding()
         }
-        
     }
     
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SignInView()
     }
 }
