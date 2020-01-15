@@ -9,16 +9,21 @@
 import SwiftUI
 
 struct SignInView: View {
+    @Environment(\.presentationMode) var presentationMode
     @State var userId: String = ""
     
     var body: some View {
         VStack(alignment: .center) {
             Spacer(minLength: 148)
-            Text("SendBirdCalls")
+            Text("CallKit App")
                 .font(.largeTitle)
+                .fontWeight(.medium)
+                .foregroundColor(.init(red: 109 / 255, green: 118 / 255, blue: 181 / 255))
                 .padding()
             Text("SwiftUI")
                 .font(.title)
+                .fontWeight(.medium)
+                .foregroundColor(.init(red: 109 / 255, green: 118 / 255, blue: 181 / 255))
                 .padding()
             VStack(alignment: .leading) {
                 Spacer()
@@ -33,8 +38,13 @@ struct SignInView: View {
                         RoundedRectangle(cornerRadius: 5)
                             .stroke(Color.black, lineWidth: 1))
                 Spacer()
-                HStack {
+            }
+            .padding()
+            
+            VStack(alignment: .center) {
+                HStack(alignment: .center) {
                     Button(action: {
+                        self.presentationMode.wrappedValue.dismiss()
                     }) {
                         Text("Sign In")
                             .fontWeight(.medium)
@@ -46,8 +56,9 @@ struct SignInView: View {
                         RoundedRectangle(cornerRadius: 10)
                             .stroke(Color.black, lineWidth: 2)
                     )
-                }.padding()
-            }.padding()
+                }
+                .padding()
+            }
         }
     }
     
