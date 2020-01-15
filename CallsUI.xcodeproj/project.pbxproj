@@ -16,6 +16,7 @@
 		96DE1C9023CF4A0F00503967 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE1C8F23CF4A0F00503967 /* UserData.swift */; };
 		96DE1C9223CF4AA500503967 /* SignOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE1C9123CF4AA500503967 /* SignOutView.swift */; };
 		96DE1C9423CF580300503967 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE1C9323CF580300503967 /* SignInView.swift */; };
+		96DE1C9623CF5C5D00503967 /* DialingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE1C9523CF5C5D00503967 /* DialingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		96DE1C8F23CF4A0F00503967 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		96DE1C9123CF4AA500503967 /* SignOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutView.swift; sourceTree = "<group>"; };
 		96DE1C9323CF580300503967 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		96DE1C9523CF5C5D00503967 /* DialingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				96DE1C7B23CF43CB00503967 /* AppDelegate.swift */,
 				96DE1C7D23CF43CB00503967 /* SceneDelegate.swift */,
 				96DE1C7F23CF43CB00503967 /* ContentView.swift */,
+				96DE1C9523CF5C5D00503967 /* DialingView.swift */,
 				96DE1C9323CF580300503967 /* SignInView.swift */,
 				96DE1C9123CF4AA500503967 /* SignOutView.swift */,
 				96DE1C8F23CF4A0F00503967 /* UserData.swift */,
@@ -161,6 +164,7 @@
 				96DE1C9023CF4A0F00503967 /* UserData.swift in Sources */,
 				96DE1C8023CF43CB00503967 /* ContentView.swift in Sources */,
 				96DE1C9223CF4AA500503967 /* SignOutView.swift in Sources */,
+				96DE1C9623CF5C5D00503967 /* DialingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

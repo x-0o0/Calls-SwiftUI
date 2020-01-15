@@ -6,7 +6,6 @@
 //  Copyright © 2020 Jaesung. All rights reserved.
 //
 
-import UIKit
 import SwiftUI
 
 struct SignOutView: View {
@@ -25,7 +24,7 @@ struct SignOutView: View {
                 Button(action: {
                 }) {
                     Text("Sign Out")
-                        .fontWeight(.bold)
+                        .fontWeight(.medium)
                         .foregroundColor(.black)
                 }
                 .padding(.horizontal, 120)
@@ -35,7 +34,9 @@ struct SignOutView: View {
                         .stroke(Color.black, lineWidth: 2)
                 )
             }.padding()
-        }.padding()
+        }
+        .padding()
+        .navigationBarTitle(Text("Account"), displayMode: .inline)
     }
 }
 

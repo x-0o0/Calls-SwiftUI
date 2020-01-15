@@ -6,7 +6,6 @@
 //  Copyright © 2020 Jaesung. All rights reserved.
 //
 
-import UIKit
 import SwiftUI
 
 struct SignInView: View {
@@ -38,7 +37,7 @@ struct SignInView: View {
                     Button(action: {
                     }) {
                         Text("Sign In")
-                            .fontWeight(.bold)
+                            .fontWeight(.medium)
                             .foregroundColor(.black)
                     }
                     .padding(.horizontal, 120)
