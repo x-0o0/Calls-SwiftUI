@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		965500C123D2056C009CD679 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965500C023D2056C009CD679 /* CustomView.swift */; };
 		96DE1C7C23CF43CB00503967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE1C7B23CF43CB00503967 /* AppDelegate.swift */; };
 		96DE1C7E23CF43CB00503967 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE1C7D23CF43CB00503967 /* SceneDelegate.swift */; };
 		96DE1C8023CF43CB00503967 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE1C7F23CF43CB00503967 /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		965500C023D2056C009CD679 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		96DE1C7823CF43CB00503967 /* CallsUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallsUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DE1C7B23CF43CB00503967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96DE1C7D23CF43CB00503967 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				96DE1C7D23CF43CB00503967 /* SceneDelegate.swift */,
 				96DE1C7F23CF43CB00503967 /* ContentView.swift */,
 				96DE1C9523CF5C5D00503967 /* DialingView.swift */,
+				965500C023D2056C009CD679 /* CustomView.swift */,
 				96DE1C9323CF580300503967 /* SignInView.swift */,
 				96DE1C9123CF4AA500503967 /* SignOutView.swift */,
 				96DE1C8F23CF4A0F00503967 /* UserData.swift */,
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96DE1C9423CF580300503967 /* SignInView.swift in Sources */,
+				965500C123D2056C009CD679 /* CustomView.swift in Sources */,
 				96DE1C7C23CF43CB00503967 /* AppDelegate.swift in Sources */,
 				96DE1C7E23CF43CB00503967 /* SceneDelegate.swift in Sources */,
 				96DE1C9023CF4A0F00503967 /* UserData.swift in Sources */,

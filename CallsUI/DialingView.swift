@@ -9,14 +9,18 @@
 import SwiftUI
 
 struct DialingView: View {
-    @State private var isNeedSignIn = true
+    @State var isPresent = true
     @State var calleeId: String = ""
+    @State var isSignedIn = false
+    
+    private var isNeedSignIn = true
+    private var onCall = false
     
     var body: some View {
         NavigationView {
             VStack {
                 HStack {
-                    TextField("Whom do you call", text: $calleeId)
+                    TextField("Whom do you call", text: self.$calleeId)
                         .padding(.horizontal, 20)
                         .frame(height: 35.0)
                         .overlay(
@@ -39,7 +43,7 @@ struct DialingView: View {
                     )
                     .contextMenu {
                         Button("🤫 Mute My Audio") {
-                            
+            
                         }
                         Button("😎 Mute My Video") {
                             
@@ -56,13 +60,19 @@ struct DialingView: View {
             }) {
                 Image(systemName: "person.circle.fill")
                 })
-        }.sheet(isPresented: self.$isNeedSignIn) {
-            SignInView()
+        }
+        .sheet(isPresented: self.$isPresent) {
+            if self.isSignedIn {
+                SignOutView()
+            } else {
+                SignInView()
+            }
         }
     }
     
     func showAccount() {
-        
+        self.isSignedIn = true
+        self.isPresent = true
     }
 }
 
