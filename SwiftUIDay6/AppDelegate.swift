@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        SendBirdCall.configure(appId: "709D3DA9-B4BF-4B89-93AE-1DE8EBF6817F")
+        SendBirdCall.configure(appId: "APP_ID")
         SendBirdCall.addDelegate(self, identifier: "com.sendbird.calls.quickstart.delegate")
         
         if UserDefaults.standard.autoLogin {
